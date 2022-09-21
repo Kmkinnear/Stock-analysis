@@ -12,9 +12,17 @@ The purpose of this analysis was to take a working set of code that we used in t
 
 Using images and examples of your code, compare the stock performance between 2018 and 2018, as well as the execution times of the original script and the refactored script.
 
+<img width="272" alt="2018" src="https://user-images.githubusercontent.com/110848660/191589739-efc010d1-e386-46d1-b6c4-97fd0e371a68.png">
+
+<img width="259" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/110848660/191589756-9288eb60-2105-49cf-bbe6-ce608b217e15.png">
+
+<img width="239" alt="2017" src="https://user-images.githubusercontent.com/110848660/191589768-80828b88-22fe-40f0-a3e2-88bde9d77936.png">
+
+<img width="272" alt="VBA_Challenge_2017 png" src="https://user-images.githubusercontent.com/110848660/191589780-5c6e1d91-0912-4f3c-ab1b-ed5793c7b9d2.png">
+
 ## Summary
 
-### Advantages and disadvantages of refactoring code
+### Advantages and Disadvantages of refactoring code
 
 The main advantage of using refactored code is that it should make it more efficient to run. This can be measured in the run time of the code which we were able to see in our Module. It can also clean up the code to make it easier to read for anyone coming behind you who is also interested in refactoring it. That is also beneficial for anyone who is new to coding so they are able to see how the code should be designed while eliminating redundant tasks within the code. This was seen in our module with doing the DQ Analysis exercise and then finding a more efficient way of doing it in Module 2. As someone who is new to coding, it was beneficial to compare the code between the two exercises and see ways to make it more efficient.
 
