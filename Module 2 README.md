@@ -13,12 +13,21 @@ The purpose of this analysis was to take a working set of code that we used in t
 Using images and examples of your code, compare the stock performance between 2018 and 2018, as well as the execution times of the original script and the refactored script.
 
 <img width="272" alt="2018" src="https://user-images.githubusercontent.com/110848660/191589739-efc010d1-e386-46d1-b6c4-97fd0e371a68.png">
+In this image, we can see the run time with the initial set of code for the 2018 stock data. The run time shows that it took just over a second to complete the code.
 
 <img width="259" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/110848660/191589756-9288eb60-2105-49cf-bbe6-ce608b217e15.png">
+This image shows the drop in run time from the initial code compared to the refactored code. The refactored code ran in .11 seconds compared to a full second with the initial code.  
+
+
+
 
 <img width="239" alt="2017" src="https://user-images.githubusercontent.com/110848660/191589768-80828b88-22fe-40f0-a3e2-88bde9d77936.png">
 
 <img width="272" alt="VBA_Challenge_2017 png" src="https://user-images.githubusercontent.com/110848660/191589780-5c6e1d91-0912-4f3c-ab1b-ed5793c7b9d2.png">
+
+We did this by creating output arrays to hold the data in as you can see from the code below.
+
+<img width="266" alt="Screenshot 2022-09-21 155054" src="https://user-images.githubusercontent.com/110848660/191597506-6a2dc2be-4f9a-449a-8b20-fcf351323463.png">
 
 ## Summary
 
@@ -30,6 +39,6 @@ One disadvantage of refactoring code is that it requires manpower so you are usi
 
 ## How do these pros and cons apply to refactoring the original VBA script?
 
-In this example, I think we saw a big difference in how the code ran in the Module Challenge compared to how it ran in the DQ Analysis. There was a noticeable difference in the amount of time that it took for the code to run between the two examples. Using the DQ Analysis macro, our run times were showing around __________. Using the refactored code, we saw that run time dropped to around ___________. This was almost a ____________ of the amount of time. 
+In this example, I think we saw a big difference in how the code ran in the Module Challenge compared to how it ran in the DQ Analysis. There was a noticeable difference in the amount of time that it took for the code to run between the two examples. Using the DQ Analysis macro, our run times were showing around 1 second. Using the refactored code, we saw that run time dropped to around .1 seconds. This was almost a full second difference. This may not seem like a lot but this was only for 12 tickers and that number would make a big diffference if we were doing a large portion of the stock market. 
 
 One of the Cons from refactoring the code was the amount of time that I spent on this exercise. Being very new to coding, it took a lot of time and thought to get the code refactored down to a more efficient version. I found one of the best things for me was to print it out and work through it that way as opposed to scrolling through it on the screen. I was also able to reach out to one of the learning assistants in BCS. He was able to walk me through and show me my mistakes in my code. Once he did that and I could see it, it made much more sense to me. This exercise was not in a real world setting but it showed me how frustrating it can be to go from a working set of code and run into error after error while trying to improve it. This is an example of the time and money (if someone was actually paying me) that could be tied up while refactoring code. 
